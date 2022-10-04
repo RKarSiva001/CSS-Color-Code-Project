@@ -1,0 +1,188 @@
+body{
+    padding: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    height: 2px;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+}
+
+.marker{
+    width: 400px;
+    height: 20px;
+    margin: 20px auto;
+}
+
+.cap{
+    width: 120px;
+    height: 20px;
+    border-right:  3px solid rgba(0, 0, 0, 0.75);
+}
+
+.sleeve{
+    width: 240px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-right:  8px double rgba(0, 0, 0, 0.75);
+}
+
+.cap, .sleeve{
+    display: inline-block;
+}
+
+.red{
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 red;
+}
+
+.green{
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 20px 0 green;
+}
+
+.blue{
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 9%, 52%));
+    box-shadow: 0 0 20px 0 blue;
+}
+
+.aqua{
+    background: linear-gradient(180deg,  #0df2f7 50%, #738cba 100%, #4cb2d1);
+    box-shadow: 0 0 20px 0 #00ffff;
+}
+
+.brown{
+    background: linear-gradient(180deg, #a52a2a 100%, #c41b3f 50%, #ed085a 100%);
+    box-shadow: 0 0 20px 0 #a52a2a;
+}
+
+.cadetblue{
+    background: linear-gradient(180deg, #5f9ea0 75%, #778697 50%, #97678c 25%);
+    box-shadow: 0 0 20px 0 #5f9ea0;
+}
+
+.chocolate{
+    background: linear-gradient(180deg, #d2691e 50%, #dd4f30 100%, #e83442 50%);
+    box-shadow: 0 0 20px 0 #d2691e;
+}
+
+.coral{
+    background: linear-gradient(180deg, #d2691e 30%, #ff5f56 75%, #ff395c 40%);
+    box-shadow: 0 0 20px 0 #ff7f50;
+}
+
+.crimson{
+    background: linear-gradient(180deg, #d6133c 60%, #c4103a 30%, #a70b38);
+    box-shadow: 0 0 20px 0 #dc143c;
+}
+
+.cyan{
+    background: linear-gradient(180deg, #006666 50%, #1affff 100%, #99ffff 50%);
+    box-shadow: 0 0 20px 0 #00ffff;
+}
+
+.darkgoldenrod{
+    background: linear-gradient(180deg, #bc7f10, #ca6422, #dc4338 35%);
+    box-shadow: 0 0 20px 0 #b8860b;
+}
+
+.darkkhaki{
+    background: linear-gradient(180deg, #b47f0d, #a46415, #8f431f);
+    box-shadow: 0 0 20px 0 #bdb76b;
+}
+
+.darksalmon{
+    background: linear-gradient(180deg, #e28e76, #bb6261, #9a3c4f);
+    box-shadow: 0 0 20px 0 #e9967a;
+}
+
+.dodgerblue{
+    background: linear-gradient(180deg, #2289f5, #375eb8, #424899);
+    box-shadow: 0 0 20px 0 #1e90ff;
+}
+
+.forestgreen{
+    background: linear-gradient(180deg, #297d24, #336826, #3d5329);
+    box-shadow: 0 0 20px 0 #228b22;
+}
+
+.fuchsia{
+    background: linear-gradient(180deg, #f000eb, #c200ad, #ab008f);
+    box-shadow: 0 0 20px 0 #ff00ff;
+}
+
+.indigo{
+    background: linear-gradient(180deg, #a9f22f, #94a630 100%, #826631);
+    box-shadow: 0 0 20px 0 #4b0082;
+}
+
+.lawngreen{
+    background: linear-gradient(180deg, #83fc00, #9dfd00, #d1fe00);
+    box-shadow: 0 0 20px 0 #7cfc00;
+}
+
+.midnightblue{
+    background: linear-gradient(180deg, #24246a 60%, #47475a, #80803e);
+    box-shadow: 0 0 20px 0 m#191970;
+}
+
+.navy{
+    background: linear-gradient(180deg, #0d0584, #33148f, #8033a6 60%);
+    box-shadow: 0 0 20px 0 #000080;
+}
+
+.orange{
+    background: linear-gradient(180deg, #ff9d05, #ff8414 75%, #ff6329);
+    box-shadow: 0 0 20px 0 #ffa500;
+}
+
+.royalblue{
+    background: linear-gradient(180deg, #eb9a14 40%, #f59f0a, #a3725c);
+    box-shadow: 0 0 20px 0 #4169e1;
+}
+
+.teal{
+    background: linear-gradient(180deg, #037c84, #0d6d93 50%, #175da2);
+    box-shadow: 0 0 20px 0 #008080;
+}
+
+.tomato{
+    background: linear-gradient(180deg, #f5614e, #d65962,  #a34d83 25%);
+    box-shadow: 0 0 20px 0 #ff6347;
+}
+
+.violet{
+    background: linear-gradient(180deg, #ef7ce7, #f168d3 50%, #f54eb8);
+    box-shadow: 0 0 20px 0 #ee82ee;
+}
+
+.yellowgreen{
+    background: linear-gradient(180deg, #9fc335, #b39a3f, #c77149);
+    box-shadow: 0 0 20px 0 #9acd32;
+}
+
+.yellow{
+    background: linear-gradient(180deg, #fff205 75%, #ffbf1a 60%, #ff7338 50%);
+    box-shadow: 0 0 20px 0 #ffff00;
+}
+
+.lavenderblush{
+    background: linear-gradient(90deg, #ffb3b5 0%, #f5b3b5 50%, #ff50f5 100%);
+    box-shadow: 0 0 20px 0 #fff0f5;
+}
+
+.steelblue{
+    background: linear-gradient(180deg, #6a5acd 50%, #6b5fca 100%, #695cf9 50%);
+    box-shadow: 0 0 20px 0 #4682b4;
+}
+
+.magneta{
+    background: linear-gradient(180deg, #ff00ff 50%, #f468f7 100%, #f59fff 50%);
+    box-shadow: 0 0 20px 0 #ff00ff;
+}
